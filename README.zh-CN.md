@@ -17,6 +17,7 @@
 
 ```text
 ecommerce-ops-ai-workflow-kit/
+  EVIDENCE.md
   ecom_ops/report.py
   scripts/ecom_ops_report.py
   skills/ecommerce-ops-review/SKILL.md
@@ -57,3 +58,6 @@ python -m unittest discover -s tests
 
 本仓库所有数据均为模拟数据，不包含真实客户数据、真实商家数据、平台私有导出或任何雇主内部资料。
 
+## 证据和安全表述
+
+见 [EVIDENCE.md](./EVIDENCE.md)，其中包含 claim 证据矩阵、人工审核边界、简历安全表述，以及不应声称的内容。

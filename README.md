@@ -17,6 +17,7 @@ The project uses simulated orders, inventory, and customer-service tickets to ge
 
 ```text
 ecommerce-ops-ai-workflow-kit/
+  EVIDENCE.md
   ecom_ops/report.py
   scripts/ecom_ops_report.py
   skills/ecommerce-ops-review/SKILL.md
@@ -57,3 +58,6 @@ Many operations teams repeat the same weekly work: collect data, identify abnorm
 
 All data in this repository is simulated. The project does not contain real customer data, real merchant data, private platform exports, or any employer-internal materials.
 
+## Evidence And Safe Wording
+
+See [EVIDENCE.md](./EVIDENCE.md) for the claim matrix, human-review boundary, resume-safe summary, and claims that should not be made.
