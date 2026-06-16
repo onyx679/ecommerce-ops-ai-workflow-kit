@@ -8,6 +8,8 @@ The project uses simulated orders, inventory, and customer-service tickets to ge
 
 Portfolio page: https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
 
+Transfer case: [Ecommerce Operations to AI Workflow BP Work](./docs/transfer-case.md)
+
 ## What It Shows
 
 - Business workflow decomposition across orders, inventory, and support tickets.
@@ -60,6 +62,10 @@ Current test coverage checks:
 
 Many operations teams repeat the same weekly work: collect data, identify abnormal SKUs, summarize risks, assign follow-up, and document what needs human confirmation. This repo shows how that work can be standardized into a lightweight AI-assisted workflow without pretending the AI has final business authority.
 
+## Transfer Case
+
+See [docs/transfer-case.md](./docs/transfer-case.md) for a reviewer-friendly explanation of why this ecommerce operations demo is relevant to AI workflow BP work. It frames the project as transferable operating-method evidence rather than vehicle-domain experience or real merchant performance.
+
 ## Data Boundary
 
 All data in this repository is simulated. The project does not contain real customer data, real merchant data, private platform exports, or any employer-internal materials.
@@ -72,6 +78,7 @@ See [EVIDENCE.md](./EVIDENCE.md) for the claim matrix, human-review boundary, re
 
 - Portfolio page: https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
 - Release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
+- Transfer case: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/docs/transfer-case.md
 - Test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 - AI Skill: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/skills/ecommerce-ops-review/SKILL.md
 - Generated report: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/examples/weekly-ops-report.md

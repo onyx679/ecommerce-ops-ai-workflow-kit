@@ -8,6 +8,8 @@
 
 作品页：https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
 
+迁移说明：[电商运营到 AI 流程提效 BP 工作](./docs/transfer-case.md)
+
 ## 展示能力
 
 - 将订单、库存、客服反馈三类资料拆成标准输入。
@@ -60,6 +62,10 @@ GitHub Actions 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-wor
 
 很多运营团队每周都会重复做类似工作：汇总数据、识别异常 SKU、整理风险、分配跟进行动、记录待人工确认事项。这个项目展示如何把这类工作标准化为轻量 AI 辅助流程，同时不让 AI 冒充最终业务决策者。
 
+## 迁移说明
+
+详见 [docs/transfer-case.md](./docs/transfer-case.md)。这份文档面向 HR 或面试官，说明电商运营 demo 为什么能作为 AI 流程提效 BP 工作的迁移证据：它证明的是流程拆解、字段标准化、报告生成、行动项整理和人工审核边界设计能力，而不是汽车领域经历或真实店铺经营结果。
+
 ## 数据边界
 
 本仓库所有数据均为模拟数据，不包含真实客户数据、真实商家数据、平台私有导出或任何雇主内部资料。
@@ -72,6 +78,7 @@ GitHub Actions 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-wor
 
 - 作品页：https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
 - Release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
+- 迁移说明：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/docs/transfer-case.md
 - 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 - AI Skill：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/skills/ecommerce-ops-review/SKILL.md
 - 生成报告：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/examples/weekly-ops-report.md
