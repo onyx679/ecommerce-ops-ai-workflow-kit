@@ -77,7 +77,7 @@ GitHub Actions 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-wor
 ## 核查链接
 
 - 作品页：https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
-- Release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
+- Release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.2
 - 迁移说明：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/docs/transfer-case.md
 - 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 - AI Skill：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/skills/ecommerce-ops-review/SKILL.md
