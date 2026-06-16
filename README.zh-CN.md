@@ -6,6 +6,8 @@
 
 项目使用模拟订单、库存和客服工单数据，生成一份 SKU 维度的周度风险报告。它适合作为业务流程提效岗位的可迁移作品：识别重复任务、定义可靠输入、生成报告草稿、保留人工审核边界，并用测试验证核心逻辑。
 
+作品页：https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
+
 ## 展示能力
 
 - 将订单、库存、客服反馈三类资料拆成标准输入。
@@ -46,7 +48,7 @@ python scripts/ecom_ops_report.py ^
 python -m unittest discover -s tests
 ```
 
-GitHub Actions 测试记录：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/runs/27596322160
+GitHub Actions 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 
 当前测试覆盖：
 
@@ -65,3 +67,12 @@ GitHub Actions 测试记录：https://github.com/onyx679/ecommerce-ops-ai-workfl
 ## 证据和安全表述
 
 见 [EVIDENCE.md](./EVIDENCE.md)，其中包含 claim 证据矩阵、人工审核边界、简历安全表述，以及不应声称的内容。
+
+## 核查链接
+
+- 作品页：https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
+- Release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
+- 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
+- AI Skill：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/skills/ecommerce-ops-review/SKILL.md
+- 生成报告：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/examples/weekly-ops-report.md
+- 证据矩阵：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/EVIDENCE.md

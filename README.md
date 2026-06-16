@@ -6,6 +6,8 @@ A small public demo for turning routine ecommerce operations work into a reusabl
 
 The project uses simulated orders, inventory, and customer-service tickets to generate a weekly SKU risk report. It is designed as a transferable proof of work for business process automation roles: identify repeated tasks, define reliable inputs, generate a draft report, keep human review boundaries explicit, and verify the logic with tests.
 
+Portfolio page: https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
+
 ## What It Shows
 
 - Business workflow decomposition across orders, inventory, and support tickets.
@@ -46,7 +48,7 @@ python scripts/ecom_ops_report.py \
 python -m unittest discover -s tests
 ```
 
-GitHub Actions test run: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/runs/27596322160
+GitHub Actions test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 
 Current test coverage checks:
 
@@ -65,3 +67,12 @@ All data in this repository is simulated. The project does not contain real cust
 ## Evidence And Safe Wording
 
 See [EVIDENCE.md](./EVIDENCE.md) for the claim matrix, human-review boundary, resume-safe summary, and claims that should not be made.
+
+## Verification Links
+
+- Portfolio page: https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
+- Release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
+- Test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
+- AI Skill: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/skills/ecommerce-ops-review/SKILL.md
+- Generated report: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/examples/weekly-ops-report.md
+- Evidence matrix: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/EVIDENCE.md

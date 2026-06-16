@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio evidence page for Ecommerce Ops AI Workflow Kit, a simulated-data AI workflow demo for ecommerce operations review."
+    />
+    <title>Ecommerce Ops AI Workflow Kit</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">
+        <span class="brand-mark">EO</span>
+        <span>Ecommerce Ops AI Workflow Kit</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#evidence" data-en="Evidence" data-zh="证据">Evidence</a>
+        <a href="#workflow" data-en="Workflow" data-zh="工作流">Workflow</a>
+        <a href="#verify" data-en="Verify" data-zh="核查">Verify</a>
+        <a href="#boundaries" data-en="Boundaries" data-zh="边界">Boundaries</a>
+      </nav>
+      <div class="language-switcher" aria-label="Language">
+        <button type="button" class="language-button active" data-lang="zh">中文</button>
+        <button type="button" class="language-button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-inner">
+          <div>
+            <h1>Ecommerce Ops AI Workflow Kit</h1>
+            <p
+              class="lead"
+              data-en="A simulated-data portfolio project that turns weekly ecommerce operations review into one reusable AI Skill, a Python CLI, CSV inputs, a Markdown risk report, and human-review boundaries."
+              data-zh="一个使用模拟数据的作品集项目，把每周电商运营复盘转化为可复用 AI Skill、Python CLI、CSV 输入、Markdown 风险周报和人工审核边界。"
+            >
+              A simulated-data portfolio project that turns weekly ecommerce operations review
+              into one reusable AI Skill, a Python CLI, CSV inputs, a Markdown risk report, and
+              human-review boundaries.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1">v0.1.1 Release</a>
+              <a class="button" href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit" data-en="GitHub Project" data-zh="GitHub 项目">GitHub Project</a>
+              <a class="button" href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/README.zh-CN.md" data-en="Chinese README" data-zh="中文 README">中文 README</a>
+            </div>
+          </div>
+          <div class="proof-card">
+            <img
+              class="ci-badge"
+              src="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml/badge.svg"
+              alt="GitHub Actions test status"
+            />
+            <dl class="proof-grid">
+              <div><dt>1</dt><dd data-en="AI Skill" data-zh="AI Skill">AI Skill</dd></div>
+              <div><dt>1</dt><dd data-en="Python CLI" data-zh="Python CLI">Python CLI</dd></div>
+              <div><dt>3</dt><dd data-en="CSV inputs" data-zh="CSV 输入">CSV inputs</dd></div>
+              <div><dt>2</dt><dd data-en="Unit tests" data-zh="单元测试">Unit tests</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="evidence" class="section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 data-en="What was built" data-zh="已完成内容">What was built</h2>
+            <p
+              data-en="The project demonstrates a transferable operating pattern: standardize repeated work, generate draft analysis, and keep business decisions under human review."
+              data-zh="项目展示一套可迁移的工作方式：标准化重复任务、生成分析草稿，并把业务决策保留在人工审核链路中。"
+            >
+              The project demonstrates a transferable operating pattern: standardize repeated
+              work, generate draft analysis, and keep business decisions under human review.
+            </p>
+          </div>
+          <div class="feature-list">
+            <article>
+              <h3 data-en="Standard Inputs" data-zh="标准输入">Standard Inputs</h3>
+              <p data-en="Orders, inventory, and support tickets are represented as CSV inputs with explicit fields." data-zh="订单、库存和客服工单被整理为字段明确的 CSV 输入。">Orders, inventory, and support tickets are represented as CSV inputs with explicit fields.</p>
+            </article>
+            <article>
+              <h3 data-en="Risk Report" data-zh="风险周报">Risk Report</h3>
+              <p data-en="The CLI generates a Markdown weekly report with summary metrics, SKU risk levels, and action tags." data-zh="CLI 生成 Markdown 周报，包含摘要指标、SKU 风险等级和行动标签。">The CLI generates a Markdown weekly report with summary metrics, SKU risk levels, and action tags.</p>
+            </article>
+            <article>
+              <h3 data-en="Review Boundary" data-zh="审核边界">Review Boundary</h3>
+              <p data-en="Inventory, refund, customer-promise, and owner-assignment decisions remain human-reviewed." data-zh="库存、退款、客户承诺和责任人分配仍需人工确认。">Inventory, refund, customer-promise, and owner-assignment decisions remain human-reviewed.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="workflow" class="section band">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 data-en="Workflow" data-zh="工作流">Workflow</h2>
+            <p
+              data-en="The workflow mirrors a real weekly operations review, but uses only simulated data in this public demo."
+              data-zh="工作流对应真实每周运营复盘的结构，但公开 demo 中只使用模拟数据。"
+            >
+              The workflow mirrors a real weekly operations review, but uses only simulated data
+              in this public demo.
+            </p>
+          </div>
+          <ol class="timeline">
+            <li><span>1</span><div><h3 data-en="Collect fields" data-zh="收集字段">Collect fields</h3><p data-en="Normalize order, inventory, and ticket inputs." data-zh="标准化订单、库存和工单输入。">Normalize order, inventory, and ticket inputs.</p></div></li>
+            <li><span>2</span><div><h3 data-en="Score risk" data-zh="风险评分">Score risk</h3><p data-en="Flag low stock, refunds, late shipments, and unresolved negative tickets." data-zh="识别低库存、退款、延迟发货和未关闭负向工单。">Flag low stock, refunds, late shipments, and unresolved negative tickets.</p></div></li>
+            <li><span>3</span><div><h3 data-en="Draft report" data-zh="生成报告">Draft report</h3><p data-en="Generate a Markdown weekly report and action queue." data-zh="生成 Markdown 周报和行动项队列。">Generate a Markdown weekly report and action queue.</p></div></li>
+            <li><span>4</span><div><h3 data-en="Review manually" data-zh="人工复核">Review manually</h3><p data-en="Human owners confirm actions before real use." data-zh="真实使用前由业务负责人确认行动。">Human owners confirm actions before real use.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="verify" class="section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 data-en="Verification links" data-zh="一跳核查链接">Verification links</h2>
+            <p data-en="Reviewers can inspect the repo, release, test workflow, sample data, generated report, and evidence matrix directly." data-zh="面试官或 HR 可以直接核查仓库、release、测试 workflow、样例数据、生成报告和证据矩阵。">Reviewers can inspect the repo, release, test workflow, sample data, generated report, and evidence matrix directly.</p>
+          </div>
+          <div class="verification-grid">
+            <a href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit"><strong data-en="Repository" data-zh="仓库">Repository</strong><span data-en="Source code, Skill, scripts, tests, and docs." data-zh="源码、Skill、脚本、测试和文档。">Source code, Skill, scripts, tests, and docs.</span></a>
+            <a href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1"><strong data-en="Release" data-zh="Release">Release</strong><span data-en="Pinned v0.1.1 public release." data-zh="固定的 v0.1.1 公开发布版本。">Pinned v0.1.1 public release.</span></a>
+            <a href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml"><strong data-en="Test workflow" data-zh="测试 workflow">Test workflow</strong><span data-en="Public GitHub Actions test history." data-zh="公开 GitHub Actions 测试历史。">Public GitHub Actions test history.</span></a>
+            <a href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/examples/weekly-ops-report.md"><strong data-en="Generated report" data-zh="生成报告">Generated report</strong><span data-en="Script-generated Markdown sample output." data-zh="脚本生成的 Markdown 样例输出。">Script-generated Markdown sample output.</span></a>
+            <a href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/skills/ecommerce-ops-review/SKILL.md"><strong data-en="AI Skill" data-zh="AI Skill">AI Skill</strong><span data-en="Reusable workflow instructions for operations review." data-zh="可复用的运营复盘工作流说明。">Reusable workflow instructions for operations review.</span></a>
+            <a href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/EVIDENCE.md"><strong data-en="Evidence matrix" data-zh="证据矩阵">Evidence matrix</strong><span data-en="Claim boundaries and resume-safe wording." data-zh="Claim 边界和简历安全表述。">Claim boundaries and resume-safe wording.</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="boundaries" class="section band">
+        <div class="section-inner boundary">
+          <h2 data-en="Honest boundaries" data-zh="诚实边界">Honest boundaries</h2>
+          <ul>
+            <li data-en="This is a simulated-data public demo, not a real merchant project." data-zh="这是使用模拟数据的公开 demo，不是真实商家项目。">This is a simulated-data public demo, not a real merchant project.</li>
+            <li data-en="It does not contain real customer data, merchant data, or private platform exports." data-zh="不包含真实客户数据、真实商家数据或平台私有导出。">It does not contain real customer data, merchant data, or private platform exports.</li>
+            <li data-en="AI output is draft decision support, not final inventory, refund, or customer-service authority." data-zh="AI 输出是决策草稿支持，不替代最终库存、退款或客服决策权。">AI output is draft decision support, not final inventory, refund, or customer-service authority.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Ecommerce Ops AI Workflow Kit</span>
+      <a href="https://github.com/onyx679/ecommerce-ops-ai-workflow-kit" data-en="View repository" data-zh="查看仓库">View repository</a>
+    </footer>
+
+    <script>
+      const buttons = document.querySelectorAll(".language-button");
+      const translatable = document.querySelectorAll("[data-en][data-zh]");
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+        translatable.forEach((node) => {
+          node.textContent = node.dataset[lang];
+        });
+        buttons.forEach((button) => {
+          button.classList.toggle("active", button.dataset.lang === lang);
+          button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
+        });
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => setLanguage(button.dataset.lang));
+      });
+
+      setLanguage("zh");
+    </script>
+  </body>
+</html>
