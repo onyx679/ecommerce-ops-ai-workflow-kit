@@ -15,6 +15,7 @@ Transfer case: [Ecommerce Operations to AI Workflow BP Work](./docs/transfer-cas
 - Business workflow decomposition across orders, inventory, and support tickets.
 - A reusable `SKILL.md` for an AI assistant to run an ecommerce operations review.
 - A Python CLI that produces a Markdown weekly risk report.
+- A verification CLI that checks the public claim-to-evidence matrix.
 - Simulated CSV inputs and a generated sample report.
 - Unit tests and a GitHub Actions test workflow for the core risk-scoring and report-output behavior.
 - Clear boundaries: AI output is a draft and must not replace stock, refund, customer promise, or owner-assignment decisions.
@@ -25,7 +26,9 @@ Transfer case: [Ecommerce Operations to AI Workflow BP Work](./docs/transfer-cas
 ecommerce-ops-ai-workflow-kit/
   EVIDENCE.md
   ecom_ops/report.py
+  ecom_ops/evidence.py
   scripts/ecom_ops_report.py
+  scripts/verify_evidence.py
   skills/ecommerce-ops-review/SKILL.md
   examples/orders.csv
   examples/inventory.csv
@@ -50,6 +53,14 @@ python scripts/ecom_ops_report.py \
 python -m unittest discover -s tests
 ```
 
+## Verify Evidence Matrix
+
+```bash
+python scripts/verify_evidence.py
+```
+
+This checks that local evidence references in `EVIDENCE.md` exist and that key safety boundaries remain present.
+
 GitHub Actions test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 
 Current test coverage checks:
@@ -57,6 +68,7 @@ Current test coverage checks:
 - summary metrics such as order count, revenue, refund count, and late shipments;
 - SKU risk levels and recommended action tags;
 - Markdown report sections and human-review boundary language.
+- evidence-matrix references and safe wording boundaries.
 
 ## Why This Matters
 

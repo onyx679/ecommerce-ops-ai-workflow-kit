@@ -19,3 +19,10 @@ class PortfolioPageTest(unittest.TestCase):
         self.assertIn('data-lang="zh"', html)
         self.assertIn('data-zh="一个使用模拟数据的作品集项目', html)
         self.assertIn("中文 README", html)
+
+    def test_page_surfaces_evidence_validator_and_current_test_count(self):
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+
+        self.assertIn("scripts/verify_evidence.py", html)
+        self.assertIn("Evidence validator", html)
+        self.assertIn("<div><dt>7</dt>", html)

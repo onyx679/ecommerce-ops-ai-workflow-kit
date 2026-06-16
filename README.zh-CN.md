@@ -15,6 +15,7 @@
 - 将订单、库存、客服反馈三类资料拆成标准输入。
 - 编写可复用 `SKILL.md`，指导 AI 助手执行电商运营风险复盘。
 - 用 Python CLI 生成 Markdown 周报。
+- 用证据校验 CLI 检查公开 claim-to-evidence 矩阵。
 - 提供模拟 CSV 输入和脚本生成的样例输出。
 - 用单元测试和 GitHub Actions 测试工作流验证风险评分和报告生成行为。
 - 明确边界：AI 输出只是草稿，不能替代库存、退款、客户承诺和责任人分配等人工决策。
@@ -24,8 +25,10 @@
 ```text
 ecommerce-ops-ai-workflow-kit/
   EVIDENCE.md
+  ecom_ops/evidence.py
   ecom_ops/report.py
   scripts/ecom_ops_report.py
+  scripts/verify_evidence.py
   skills/ecommerce-ops-review/SKILL.md
   examples/orders.csv
   examples/inventory.csv
@@ -50,6 +53,14 @@ python scripts/ecom_ops_report.py ^
 python -m unittest discover -s tests
 ```
 
+## 校验证据矩阵
+
+```bash
+python scripts/verify_evidence.py
+```
+
+该命令会检查 `EVIDENCE.md` 中引用的本地证据路径是否存在，以及关键安全边界是否仍然保留。
+
 GitHub Actions 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 
 当前测试覆盖：
@@ -57,6 +68,7 @@ GitHub Actions 测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-wor
 - 订单数、收入、退款数、发货延迟数等摘要指标；
 - SKU 风险等级和建议行动标签；
 - Markdown 报告结构和人工审核边界说明。
+- 证据矩阵引用路径和安全表述边界。
 
 ## 为什么有价值
 
