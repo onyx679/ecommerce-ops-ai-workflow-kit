@@ -1,5 +1,7 @@
 # Ecommerce Ops AI Workflow Kit
 
+[![test](https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml/badge.svg)](https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml)
+
 A small public demo for turning routine ecommerce operations work into a reusable AI workflow.
 
 The project uses simulated orders, inventory, and customer-service tickets to generate a weekly SKU risk report. It is designed as a transferable proof of work for business process automation roles: identify repeated tasks, define reliable inputs, generate a draft report, keep human review boundaries explicit, and verify the logic with tests.
@@ -10,7 +12,7 @@ The project uses simulated orders, inventory, and customer-service tickets to ge
 - A reusable `SKILL.md` for an AI assistant to run an ecommerce operations review.
 - A Python CLI that produces a Markdown weekly risk report.
 - Simulated CSV inputs and a generated sample report.
-- Unit tests for the core risk-scoring and report-output behavior.
+- Unit tests and a GitHub Actions test workflow for the core risk-scoring and report-output behavior.
 - Clear boundaries: AI output is a draft and must not replace stock, refund, customer promise, or owner-assignment decisions.
 
 ## Project Structure
@@ -43,6 +45,8 @@ python scripts/ecom_ops_report.py \
 ```bash
 python -m unittest discover -s tests
 ```
+
+GitHub Actions test run: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/runs/27596322160
 
 Current test coverage checks:
 

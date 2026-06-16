@@ -1,5 +1,7 @@
 # 电商运营 AI 工作流套件
 
+[![test](https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml/badge.svg)](https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml)
+
 这是一个公开 demo，用于展示如何把电商运营中的重复工作拆解为可复用的 AI 工作流。
 
 项目使用模拟订单、库存和客服工单数据，生成一份 SKU 维度的周度风险报告。它适合作为业务流程提效岗位的可迁移作品：识别重复任务、定义可靠输入、生成报告草稿、保留人工审核边界，并用测试验证核心逻辑。
@@ -10,7 +12,7 @@
 - 编写可复用 `SKILL.md`，指导 AI 助手执行电商运营风险复盘。
 - 用 Python CLI 生成 Markdown 周报。
 - 提供模拟 CSV 输入和脚本生成的样例输出。
-- 用单元测试验证风险评分和报告生成行为。
+- 用单元测试和 GitHub Actions 测试工作流验证风险评分和报告生成行为。
 - 明确边界：AI 输出只是草稿，不能替代库存、退款、客户承诺和责任人分配等人工决策。
 
 ## 项目结构
@@ -43,6 +45,8 @@ python scripts/ecom_ops_report.py ^
 ```bash
 python -m unittest discover -s tests
 ```
+
+GitHub Actions 测试记录：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/runs/27596322160
 
 当前测试覆盖：
 
