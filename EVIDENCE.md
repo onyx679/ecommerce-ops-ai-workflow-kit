@@ -12,7 +12,7 @@ This file maps public claims about the project to verifiable repository evidence
 | The project includes a Python CLI. | `scripts/ecom_ops_report.py`, `ecom_ops/report.py` | Python CLI generates a Markdown weekly risk report | Do not claim production deployment. |
 | The project generates a sample report. | `examples/weekly-ops-report.md` | Script-generated Markdown sample report | Treat output as a draft, not final operating instruction. |
 | The project has unit tests and public CI. | `tests/test_ecom_ops_report.py`, `.github/workflows/test.yml`, [GitHub Actions workflow](https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml) | Two unit tests verify summary metrics, SKU risk, actions, and report boundaries; the public GitHub Actions test workflow is available | Do not imply production deployment or external adoption. |
-| The project has a release. | `v0.1.2` GitHub release | Public `v0.1.2` release | Do not imply external adoption or review. |
+| The project has a release. | `v0.1.3` GitHub release | Public `v0.1.3` release | Do not imply external adoption or review. |
 | The project has a public portfolio page. | `docs/index.html`, GitHub Pages | Public bilingual portfolio page with verification links | Do not imply real merchant adoption or customer data use. |
 
 ## Human Review Boundary
@@ -27,7 +27,7 @@ AI output is limited to draft preparation and risk surfacing. A human owner must
 
 ## Resume-Safe Summary
 
-> Built a public ecommerce operations workflow demo using simulated orders, inventory, and support-ticket data. The project includes one AI Skill, one Python CLI, sample CSV inputs, a generated Markdown weekly risk report, bilingual README files, unit tests, a public GitHub Actions test workflow, an evidence matrix, a GitHub Pages portfolio page, and a public `v0.1.2` release. AI output is treated as draft decision support and requires human review.
+> Built a public ecommerce operations workflow demo using simulated orders, inventory, and support-ticket data. The project includes one AI Skill, one Python CLI, sample CSV inputs, a generated Markdown weekly risk report, bilingual README files, unit tests, a public GitHub Actions test workflow, an evidence matrix, a GitHub Pages portfolio page, and a public `v0.1.3` release. AI output is treated as draft decision support and requires human review.
 
 ## Do Not Claim
 

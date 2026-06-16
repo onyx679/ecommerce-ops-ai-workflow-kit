@@ -77,7 +77,7 @@ See [EVIDENCE.md](./EVIDENCE.md) for the claim matrix, human-review boundary, re
 ## Verification Links
 
 - Portfolio page: https://onyx679.github.io/ecommerce-ops-ai-workflow-kit/
-- Release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.2
+- Release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.3
 - Transfer case: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/docs/transfer-case.md
 - Test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 - AI Skill: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/blob/main/skills/ecommerce-ops-review/SKILL.md
