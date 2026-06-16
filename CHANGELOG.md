@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.4 - 2026-06-17
+
+- Add an evidence-matrix validator CLI for checking local claim references and safe wording boundaries.
+- Add tests for evidence validation and public Pages evidence links.
+- Update the public Pages portfolio and bilingual README files to surface the validator and current test count.
+
 ## v0.1.3 - 2026-06-16
 
 - Default the GitHub Pages portfolio page to English while keeping Chinese available through the language switcher.
