@@ -1,0 +1,6 @@
+sku,on_hand,reorder_point,lead_time_days
+SKU-A,42,20,5
+SKU-B,8,15,7
+SKU-C,16,12,6
+SKU-D,5,10,10
+SKU-E,22,8,4

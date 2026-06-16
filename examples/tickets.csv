@@ -1,0 +1,7 @@
+ticket_id,date,sku,topic,sentiment,status
+T-2001,2026-06-01,SKU-B,refund,negative,open
+T-2002,2026-06-02,SKU-D,late-shipping,negative,open
+T-2003,2026-06-03,SKU-C,quality,negative,closed
+T-2004,2026-06-04,SKU-B,size-question,neutral,open
+T-2005,2026-06-05,SKU-D,late-shipping,negative,open
+T-2006,2026-06-06,SKU-E,usage-question,neutral,closed
